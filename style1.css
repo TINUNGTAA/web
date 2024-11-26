@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppies",sans-serif;
+   
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://static.toiimg.com/thumb/msid-106098609,width-1280,height-720,resizemode-4/106098609.jpg)  ;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    
+    
+}
+image{
+    background-size: cover;
+}
+
+.wrapper{
+    border: 1px solid;
+    height: 90vh;
+    padding: 50px;
+    width: 350px;
+    background-color: rgb(196, 218, 218);
+    border-radius: 20px;
+}
+
+
+   
+    
+   
+
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.login{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-right:-25px;
+    align-items: center;
+    background-color:rgb(83, 83, 150);
+    
+}
+
+
+.login:hover{
+    background-color: azure;}
+
+.sign{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+
+.input-box{
+    margin-top: 30px;
+    margin-bottom:   20px;
+    display: block;
+}
+
+.input-box input{
+    width: 250px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.forget a{
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+.forget:hover{
+    background-color: rgb(79, 124, 124);
+    
+}
+
+
+.btn{
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    background-color:rgb(83, 83, 150);
+    color: black;
+    margin-top: 20px;
+
+}
+
+
+.btn:hover{
+    background-color: azure;
+}
+.txt{
+    margin-top: 10px;
+}
